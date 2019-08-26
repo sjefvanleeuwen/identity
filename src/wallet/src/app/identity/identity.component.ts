@@ -28,6 +28,8 @@ const appRoutes: Routes = [
 })
 export class IdentityComponent implements OnInit {
 
+  visible: boolean = true;
+
   constructor() { }
 
   ngOnInit() {
