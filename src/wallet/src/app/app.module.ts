@@ -22,6 +22,8 @@ import {
   MatToolbarModule,
   MatBadgeModule } 
   from '@angular/material';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 const appRoutes: Routes = [
@@ -67,7 +69,8 @@ const appRoutes: Routes = [
     MatIconModule, 
     MatMenuModule,
     MatToolbarModule,
-    MatBadgeModule
+    MatBadgeModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   exports: [
     MatButtonModule, 
