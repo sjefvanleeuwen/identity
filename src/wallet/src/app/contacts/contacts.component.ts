@@ -11,18 +11,18 @@ export class ContactsComponent implements OnInit {
 
   ngOnInit() {
   }
-  messages = [
-    {
-      image: 'https://thispersondoesnotexist.com/image',
-      from: 'Entity 1',
-      subject: 'Message Subject 1',
-      content: 'Message Content 1'
-    },
-    {
-      image: 'https://thispersondoesnotexist.com/image',
-      from: 'Entity 2',
-      subject: 'Message Subject 2',
-      content: 'Message Content 2'
-    },
-  ]
+    messages = [
+      {
+        image: 'https://thispersondoesnotexist.com/image',
+        from: 'Entity 1',
+        subject: 'Message Subject 1',
+        content: 'Message Content 1'
+      },
+      {
+        image: 'https://thispersondoesnotexist.com/image',
+        from: 'Entity 2',
+        subject: 'Message Subject 2',
+        content: 'Message Content 2'
+      },
+    ]
 }
