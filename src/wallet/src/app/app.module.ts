@@ -11,6 +11,7 @@ import { SettingsComponent } from './settings/settings.component';
 import { NotificationsComponent } from './notifications/notifications.component';
 import { IdentityComponent } from './identity/identity.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 import { 
   MatCardModule, 
@@ -22,6 +23,7 @@ import {
   MatBadgeModule } 
   from '@angular/material';
 
+
 const appRoutes: Routes = [
   { path: 'identity', component: IdentityComponent },
   { path: 'credentials', component: CredentialsComponent },
@@ -29,13 +31,14 @@ const appRoutes: Routes = [
   { path: 'alerts', component: NotificationsComponent },
   { path: 'settings', component: SettingsComponent },
   { path: 'notifications', component: NotificationsComponent },
+  { path: 'welcome', component: WelcomeComponent },
   { path: '',
-    redirectTo: '/identity',
+    redirectTo: '/welcome',
     pathMatch: 'full'
   },
   { 
     path: '**',
-    redirectTo: '/identity',
+    redirectTo: '/welcome',
     pathMatch: 'full'
   }
 ];
@@ -48,7 +51,8 @@ const appRoutes: Routes = [
     ContactsComponent,
     SettingsComponent,
     NotificationsComponent,
-    IdentityComponent
+    IdentityComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
