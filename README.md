@@ -1,5 +1,23 @@
 # Wallet
 
+## Citizen Centricity
+
+This wallet is designed to be citizen centric with the social system in mind. Its primary goal is improving the self-reliance of citizens in their municipality.
+
+## Overview
+
+This wallet is part of the following technical eco-system, and is considered to have engouh principles to develop as a common ground.
+
+https://github.com/sjefvanleeuwen/fieldlab-reference-architecture
+
+The wallet lands on this architecture as an APP that is part of a citizens portal, depicted in the following two illustrations:
+
+![Ecosystem](doc/img/ecosystem.png "Ecosystem")
+
+![Wallet Ecosystem](doc/img/wallet-ecosystem.png "Wallet Ecosystem")
+
+# Setting up your environoment
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
 
 ## Development server
