@@ -1,1 +1,10 @@
-<p>contacts works!</p>
+<mat-list>
+	<mat-list-item *ngFor="let message of messages">
+		<img matListAvatar src="{{message.image}}" alt="photo of contact">
+		<h3 matLine> {{message.from}} </h3>
+		<p matLine>
+			<span> {{message.subject}} </span>
+			<span> -- {{message.content}} </span>
+		</p>
+	</mat-list-item>
+</mat-list>

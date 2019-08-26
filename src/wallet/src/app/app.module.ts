@@ -20,7 +20,10 @@ import {
   MatIconModule, 
   MatMenuModule,
   MatToolbarModule,
-  MatBadgeModule } 
+  MatBadgeModule,
+  MatListModule,
+  MatTableModule,
+ } 
   from '@angular/material';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
@@ -70,6 +73,8 @@ const appRoutes: Routes = [
     MatMenuModule,
     MatToolbarModule,
     MatBadgeModule,
+    MatListModule,
+    MatTableModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   exports: [
