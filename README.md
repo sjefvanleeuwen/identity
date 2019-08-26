@@ -16,6 +16,10 @@ The wallet lands on this architecture as an APP that is part of a citizens porta
 
 ![Wallet Ecosystem](doc/img/wallet-ecosystem.png "Wallet Ecosystem")
 
+# Status
+
+Under development, not fit for production use.
+
 # Setting up your environoment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
