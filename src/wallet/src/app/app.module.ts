@@ -37,7 +37,8 @@ const appRoutes: Routes = [
   { path: 'settings', component: SettingsComponent },
   { path: 'notifications', component: NotificationsComponent },
   { path: 'welcome', component: WelcomeComponent },
-  { path: '',
+  { path: 'assistant', component: AssistantComponent },
+    { path: '',
     redirectTo: '/welcome',
     pathMatch: 'full'
   },
