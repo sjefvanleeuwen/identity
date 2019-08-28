@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CredentialsComponent } from '../credentials/credentials.component';
 import { ContactsComponent } from '../contacts/contacts.component';
 import { NotificationsComponent } from '../notifications/notifications.component';
+import { DigitalMEWallet, DIDNetwork } from '../neo/DigitalME';
 
 const appRoutes: Routes = [
   { path: 'credentials', component: CredentialsComponent },
@@ -33,6 +34,9 @@ export class IdentityComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    var wallet = new DigitalMEWallet({name: "MyWallet"});
+    var DID = wallet.createDID(DIDNetwork.TestNet);
+    console.log('wallet', wallet)
+    console.log('DID', DID)
   }
-
 }

@@ -58,7 +58,8 @@ const appRoutes: Routes = [
     SettingsComponent,
     NotificationsComponent,
     IdentityComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    // SeraphIDWallet
   ],
   imports: [
     BrowserModule,
@@ -76,6 +77,7 @@ const appRoutes: Routes = [
     MatBadgeModule,
     MatListModule,
     MatTableModule,
+    // SeraphIDWallet,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   exports: [
@@ -90,7 +92,8 @@ const appRoutes: Routes = [
     ContactsComponent,
     SettingsComponent,
     NotificationsComponent,
-    IdentityComponent
+    IdentityComponent,
+    // SeraphIDWallet,
   ],
   providers: [],
   bootstrap: [AppComponent]
