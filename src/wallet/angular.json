@@ -30,9 +30,14 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/chat-bubble/component/styles/input.css",
+              "./node_modules/chat-bubble/component/styles/reply.css",
+              "./node_modules/chat-bubble/component/styles/says.css",
+              "./node_modules/chat-bubble/component/styles/setup.css",
+              "./node_modules/chat-bubble/component/styles/typing.css"
             ],
-            "scripts": []
+            "scripts": ["./node_modules/chat-bubble/component/Bubbles.js"]
           },
           "configurations": {
             "production": {
