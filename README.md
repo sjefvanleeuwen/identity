@@ -18,7 +18,9 @@ The wallet lands on this architecture as an APP that is part of a citizens porta
 
 # Status
 
-Under development, not fit for production use.
+Under development, not fit for production use. Creates a DID and wallet for now on NEO Testnet.
+
+![DID Wallet](doc/img/did-wallet-claims.png "DID Wallet")
 
 # Setting up your environoment
 
