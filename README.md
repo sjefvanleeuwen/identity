@@ -1,8 +1,18 @@
-# Wallet
+# Digital ME
 
 ## Citizen Centricity
 
-This wallet is designed to be citizen centric with the social system in mind. Its primary goal is improving the self-reliance of citizens in their municipality.
+Digital ME is designed to be citizen centric with the social system in mind. Its primary goal is improving the self-reliance of citizens in their municipality within the Participation Act through the use of Self-Sovereign Identities (SSI).
+
+## Profile
+
+The Digital Me profile consists of information about a citizen and their characteristics. This app is the place where they can manage information about themselves. It is about data about the citizen, such as their household composition andtheir CV.
+
+The citizens themselves can decide who can view or use that data in which situation. For this we make use of SSI, Decentralized Identifiers (DID) and triple-blind authentication to ensure the citizen is protected against profiling.
+
+## Life Events
+
+Apart from the citizen profile, Digital ME also gives the citizen's Digital Twin senses through Life Events. These events inform citizens whenever there are changes within their life cycle that might impact their self-reliance.
 
 ## Overview
 
@@ -22,7 +32,7 @@ Under development, not fit for production use. Creates a DID and wallet for now 
 
 ![DID Wallet](doc/img/did-wallet-claims.png "DID Wallet")
 
-# Setting up your environoment
+# Setting up your environment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
 
