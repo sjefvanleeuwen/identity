@@ -6,7 +6,7 @@ Digital ME is designed to be citizen centric with the social system in mind. Its
 
 ## Profile
 
-The Digital Me profile consists of information about a citizen and their characteristics. This app is the place where they can manage information about themselves. It is about data about the citizen, such as their household composition andtheir CV.
+The Digital Me profile consists of information about a citizen and their characteristics. This app is the place where they can manage information about themselves. It is about data about the citizen, such as their household composition and their CV.
 
 The citizens themselves can decide who can view or use that data in which situation. For this we make use of SSI, Decentralized Identifiers (DID) and triple-blind authentication to ensure the citizen is protected against profiling.
 
