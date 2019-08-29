@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  eventHub: "http://192.168.99.102:5051/eventhub",
+  authHub: "http://192.168.99.102:5051/authenticationhub"
 };
 
 /*
