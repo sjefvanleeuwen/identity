@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CredentialsComponent } from '../credentials/credentials.component';
 import { ContactsComponent } from '../contacts/contacts.component';
 import { NotificationsComponent } from '../notifications/notifications.component';
-import { DigitalMEWallet, DIDNetwork } from '../neo/DigitalME';
+import { DigitalMEWallet, DIDNetwork } from '../../neo/DigitalME';
 
 const appRoutes: Routes = [
   { path: 'credentials', component: CredentialsComponent },

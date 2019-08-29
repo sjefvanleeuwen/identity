@@ -4,14 +4,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 
 
-import { AssistantComponent } from './assistant/assistant.component';
-import { CredentialsComponent } from './credentials/credentials.component';
-import { ContactsComponent } from './contacts/contacts.component';
-import { SettingsComponent } from './settings/settings.component';
-import { NotificationsComponent } from './notifications/notifications.component';
-import { IdentityComponent } from './identity/identity.component';
+import { AssistantComponent } from './views/assistant/assistant.component';
+import { CredentialsComponent } from './views/credentials/credentials.component';
+import { ContactsComponent } from './views/contacts/contacts.component';
+import { SettingsComponent } from './views/settings/settings.component';
+import { NotificationsComponent } from './views/notifications/notifications.component';
+import { IdentityComponent } from './views/identity/identity.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { WelcomeComponent } from './welcome/welcome.component';
+import { WelcomeComponent } from './views/welcome/welcome.component';
 
 import { 
   MatCardModule, 
